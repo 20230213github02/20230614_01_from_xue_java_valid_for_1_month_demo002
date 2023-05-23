@@ -13,10 +13,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @CrossOrigin(origins = "http://localhost:8081")
 public class UserController {
+//   自动注入依赖
     @Autowired
     private UserService userService;
 
-    @PostMapping("/login")
+    @PostMapping("/user/login")
     public ResponseEntity<String> login(@RequestBody User user) {
         String username = user.getName();
         String password = user.getPassword();
