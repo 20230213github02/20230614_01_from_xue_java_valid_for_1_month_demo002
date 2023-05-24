@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @CrossOrigin(origins = "http://localhost:8081")
 public class UserController {
-//   自动注入依赖
+//   自动注入依赖//自動注入依存性
     @Autowired
     private UserService userService;
 

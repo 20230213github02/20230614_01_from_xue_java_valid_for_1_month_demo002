@@ -8,7 +8,7 @@ import org.springframework.web.filter.CorsFilter;
 
 @Configuration
 public class CorsConfig {
-
+// 创建 CorsFilter bean，用于处理跨域请求。//ドメイン間要求を処理するためのCorsFilter beanを作成します。
     @Bean
     public CorsFilter corsFilter() {
         UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();

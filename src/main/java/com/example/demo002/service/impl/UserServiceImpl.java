@@ -9,7 +9,7 @@ import com.example.demo002.service.UserService;
 public class UserServiceImpl implements UserService {
     @Autowired
     private UserMapper userMapper;
-
+   // 在此调用 userMapper 的方法进行用户验证//ユーザー認証のためにuserMapperを呼び出す方法
     public boolean validateUser(String username, String password) {
         return userMapper.verifyUserLogin(username, password);
     }

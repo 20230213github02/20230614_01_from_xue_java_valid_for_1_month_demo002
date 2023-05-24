@@ -1,6 +1,6 @@
 package com.example.demo002.entity;
 
-//普通用户
+//普通用户//一般ユーザー
 public class User {
 
 
