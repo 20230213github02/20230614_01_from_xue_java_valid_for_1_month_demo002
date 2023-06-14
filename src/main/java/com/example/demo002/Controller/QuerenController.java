@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/xingui")
 public class QuerenController {
 
-    private final QuerenService querenService;
+    private   QuerenService querenService;
 
     @Autowired
     public QuerenController(QuerenService querenService) {
